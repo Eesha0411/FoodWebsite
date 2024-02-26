@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Foodies</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Hey Foodies</span>
+            </h1>
+
+            <p class="tertiary">
+                Indulge your senses and embark on a culinary journey like no other. We are thrilled to welcome you to our table, where passion meets flavor, and every bite tells a story.
+                At Foodies, we're not just about food; we're about creating experiences. Our chefs pour their heart and soul into every dish, crafting flavors that celebrate the artistry of cooking. With a commitment to quality, freshness, and innovation, we're here to redefine your gastronomic expectations.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="https://static.toiimg.com/photo/80888817.cms"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Breakfast</span>
+                    </div>
+                    <p class="meal-title">Indian</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400-600</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/chitra-sendhil1453210035569e39b33b9db.jpeg"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Lunch</span>
+                        
+                    </div>
+                    <p class="meal-title">Indian</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>600-800</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Dinner</span>
+                    </div>
+                    <p class="meal-title">Indian</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>500-700</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>See How It's Works</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Browse our menu, choose your favorite dishes, and place your order effortlessly. Our user-friendly platform ensures a seamless ordering experience.
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    We take pride in sourcing the finest, freshest ingredients to guarantee the best quality in every dish. Our chefs are dedicated to delivering a delightful dining experience that exceeds your expectations.
+                </p>
+            </div>
+
+        
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="https://www.foodlocale.in/wp-content/uploads/2022/11/food-1024x683.jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    Welcome to Foodies, where we take pride in crafting a diverse and delectable menu that caters to every palate. With over 200 mouthwatering dishes, our commitment to culinary excellence is evident in every bite.
+
+                Our chefs are passionate about creating a dining experience that goes beyond just a meal. We use the finest ingredients to ensure each dish is a masterpiece, reflecting the rich flavors and cultural diversity of our cuisine.
+
+                Whether you're craving a hearty Biryani, succulent Chicken, cheesy Pizza, flavorful Burger, or comforting Pasta – our menu has something to satisfy every craving. Join us on a gastronomic journey as we redefine the art of dining.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Recommended</li>
+                <li>Veg/Non-veg Starters</li>
+                <li>Biriyani</li>
+                <li>Indian Curries</li>
+                <li>Beverages & Deserts</li>
+                <li>Indian breads</li>
+                <li>Combos</li>
+                <li>Day Specials</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="https://assets.zeezest.com/images/PROD_A_1664167434483_thumb_800.jpeg?w=3840&q=75"
+                            alt="" />
+
+                        <div class="title">Foodies | Starters</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg"
+                            alt="" />
+
+                        <div class="title">Foodies | Biriyani</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/12/10-Best-mild-Indian-curry-recipes-4c46c30.jpg?quality=90&resize=556,505"
+                            alt="" />
+
+                        <div class="title">Foodies | Indian Curries</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/01/retro-cocktails-b12b00d.jpg?quality=90&resize=556,505"
+                            alt="" />
+
+                        <div class="title">Foodies | Beverages</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Croquembouche-profiterole-tower-ceb1da8.jpg?quality=90&resize=556,505"
+                            alt="" />
+
+                        <div class="title">Foodies | Deserts</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2020/10/kulcha-GettyImages-1253212018.jpg"
+                            alt="" />
+
+                        <div class="title">Foodies | Indian Breads</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="https://www.bitesbee.com/wp-content/uploads/2021/09/Shahi-Paneer-Mix-Veg-Dal-Makhani.jpg"
+                            alt="" />
+
+                        <div class="title">Foodies | Combos</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://natashaskitchen.com/wp-content/uploads/2021/12/Tomato-Avocado-Salad-SQ.jpg"
+                            alt="" />
+
+                        <div class="title">Foodies | Guilt free menu</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://www.recipetineats.com/wp-content/uploads/2021/04/Mushroom-Soup-in-bowl-SQ.jpg"
+                            alt="" />
+
+                        <div class="title">Foodies | Soups</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://yt3.googleusercontent.com/jbfWeaJd4CIyUgJWX6QGlY4Bp5qfHi6XPcOjBJpFWwW-iBv0SuOLgiUyp64zfEshZn07hQVnEg=s900-c-k-c0x00ffffff-no-rj"
+                            alt="" />
+
+                        <div class="title">Foodies | Day Specials</div>
+
+                        <div class="location">Bangalore, India</div>
+
+                        <div class="order flex">
+                            <div class="price">Available</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>What is Foodies Customer Care Number?</summary>
+                <div class="content">
+                    <p>
+                        We value our customer's time and efforts and hence has moved away from a single number to a chat based support for quick and easy solution
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I am unable to track my order</summary>
+                <div class="content">
+                    <p>
+                        The dish might either be unavailable or temporarily out of serviceable due to low rider availability
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I see surge fees on app</summary>
+                <div class="content">
+                    <p>
+                        Due to high demand and to fairly compensate the delivery executive there is a surge in the fees
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I am unable to place a cash on delivery</summary>
+                <div class="content">
+                    <p>
+                       Following reasons might be the cause:
+                       <br>High value order
+                       <br>Placed from Desktop application
+                       <br>Cancellation of previous COD
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The Foodies App</h2>
+                <p>
+                        Enjoy the convenience of Foodies at your fingertips! Download our app and indulge in a world of flavors delivered to your doorstep. Join our community of food enthusiasts and experience the following:
+        
+                        <blockquote class="quote">
+                            "A delightful culinary journey awaits you with the Foodies app. Order with ease, discover new favorites, and enjoy exclusive offers!"
+                        </blockquote>
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Embracing a future where food brings people closer, Foodies envisions being the heartbeat of every neighborhood. Our vision extends beyond delivering meals; we aspire to redefine how communities experience food
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>All</li>
+                    <li>Biriyani</li>
+                    <li>Veg/Nonveg Starters</li>
+                    <li>Indian Curries</li>
+                    <li>Beverages and Deserts</li>
+                    <li>Indian Breads</li>
+                    <li>Combos</li>
+                    <li>Day Specials</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Developed by Eesha Kiran 2024</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
